@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="js/mine.js"></script>
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button> -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="firstname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="Your First Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Your Last Name">
+                        </div>
+                            <label for="lastname" class="form-label">Phone</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-phone"></i></span>
+                        <input type="number" class="form-control" placeholder="Your Phone Number" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email Address">
+                        </div>
+                      
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+
+
+                </div>
+          
+            </div>
+        </div>
+    </div>
+
+    <section id="navigation" class="ps-5 pe-5 pt-2 pb-2">
+        <nav class="navbar navbar-expand-lg custom-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo_black.png" class="logo_img"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item custom-list">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item custom-list">
+                            <a class="nav-link" href="#">Inquire Now</a>
+                        </li>
+
+                        <li class="nav-item custom-list">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+
+
+
+                    </ul>
+
+                    <div class="d-flex">
+                        <button class="btn custom-nav-button1 rounded-0 ps-4 pe-4"> Enter App</button>
+                        <button class="btn custom-nav-button2 rounded-0 ps-4 pe-4 ms-3">Inquire</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="header" class="ps-5 pe-5 pt-2 pb-2">
+        <div class="container-fluid header-left">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <h1>Insurance Claim<br>&Construction<br>Management</h1>
+                    <span>All At Zero Cost to you </span>
+                    <div class="d-flex flex-row mt-5">
+                        <div class="my-auto  ">
+                            <button class="btn custom-nav-button2 rounded-0 ps-5 pe-5 pt-2 pb-2 "  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Inquire</button>
+                        </div>
+                        <div class="my-auto ps-4 d-flex flex-row align-items-center ">
+                            <button class="btn custom-nav-button3 " ><i class="fa-solid fa-phone"></i></button>
+                            <div>
+                                <p class="ps-3 m-0">Inquire</p>
+                                <p class="ps-3 m-0">8008135423</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="width: 20%; margin-top: 70px;">
+                    <div class="mt-4 container">
+                        <p>Trusted by </p>
+                        <!-- <div class="d-flex gap-4">
+                            <img src="images/saas.png" alt="" class="img-fluid">
+                            <img src="images/askimat.png" alt="" class="img-fluid">
+                            <img src="images/martino.png" alt="" class="img-fluid">
+                            <img src="images/rocker.png" alt="" class="img-fluid">
+                        </div> -->
+                        <div class="row">
+                            <div class="col-md-3 col-xs-12 text-left mob-center my-auto">
+                            <img src="images/ist-lack.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-xs-12 text-left  mob-center my-auto">
+                            <img src="images/transwestern.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-xs-12 text-left  mob-center my-auto">
+                            <img src="images/stirling.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-xs-12 text-left  mob-center my-auto">
+                            <img src="images/Northern-Trust-Company-Logo-removebg-preview.png" alt="" class="img-fluid">
+                            </div>
+                            <a href="#" style="text-align: right;" class="mt-2">And more</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 p-2">
+                    <img src="images/header-img.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="ps-5 pe-5 pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 p-3 text-center b-right">
+                    <img src="images/undercontract.png" alt="" style="width: 58px; height: 64px;">
+                    <div class="mt-3">
+                        <h2>$764.3MM</h2>
+                        <span>Assets Under Contract</span>
+                    </div>
+                </div>
+                <div class="col-md-4 p-3 text-center b-right ">
+                    <img src="images/construction.png" alt="" style="width: 58px; height: 64px;">
+                    <div class="mt-3">
+                        <h2>$103MM</h2>
+                        <span>Of Construction</span>
+                    </div>
+
+                </div>
+                <div class="col-md-4 p-3 text-center b-right " >
+                    <img src="images/cost-to-client.png" alt="" style="width: 58px; height: 64px;">
+                    <div class="mt-3">
+                        <h2>$0</h2>
+                        <span>Cost To Client</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="insuranceclaim" class="ps-5 pe-5 pt-2 pb-2">
+        <div class="container-fluid pt-5 pb-5 insurancecontainer">
+            <div class="row">
+
+                <div class="col-md-6 p-4">
+                    <img src="images/insurance-claim-hassles.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 p-4 my-auto">
+                    <h1>Say Good-Bye to all <br> the Insurance Claim <br> Hassles</h1>
+                    <p class="claim-para">Claim IV Inc. is a renowned Loss Management Service company dedicated to
+                        simplifying the insurance claim process and
+                        restoring normalcy in your life. They have developed an innovative, patent-pending approach that
+                        guarantees the
+                        indemnification of your property. This unique method seamlessly integrates Pre-Loss strategies,
+                        Active loss
+                        negotiations, and Construction management, providing a comprehensive solution under one roof.
+                    </p>
+
+
+
+                    <div class="d-flex mt-5 ">
+                        <button class="btn custom-nav-button2 rounded-0 ps-4 pe-4 pt-2 pb-2 "><i class="fa-solid fa-phone"></i>
+                           Call Now</button>
+                        <button class="btn custom-nav-button1 rounded-0 ps-4 pe-4 ms-3" type="submit">Inquire</button>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="whyclaimiv" class="ps-5 pe-5 pt-5 pb-5 ">
+        <h2 class="text-center">Why ClaimIV</h2>
+        <div class="container mt-5 pt-3 pb-3 ps-5 pe-5">
+            <div class="row d-flex flex-row justify-content-around">
+                <div class="col-md-6 p-2 ">
+                    <div class="d-flex whyright">
+                        <div>
+                            <img src="images/ai.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="ps-3 my-auto">
+                            <h3>AI Integrated Platform</h3>
+                            <p>Home equity loans are better if you're looking for the lowest interest rates, long
+                                periods, and especially flexible
+                                repayment options.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 p-2 ">
+                    <div class="d-flex whyright">
+                        <div>
+                            <img src="images/live-disaster.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="ps-3 my-auto">
+                            <h3>Live Disaster Tracking</h3>
+                            <p>Home equity loans are better if you're looking for the lowest interest rates, long
+                                periods, and especially flexible
+                                repayment options.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row d-flex flex-row justify-content-around">
+                <div class="col-md-6 p-2 ">
+                    <div class="d-flex whyright">
+                        <div>
+                            <img src="images/construction-management.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="ps-3 my-auto">
+                            <h3>Construction Management</h3>
+                            <p>Home equity loans are better if you're looking for the lowest interest rates, long
+                                periods, and especially flexible
+                                repayment options.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 p-2 ">
+                    <div class="d-flex whyright">
+                        <div>
+                            <img src="images/insurance-claim-management.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="ps-3 my-auto">
+                            <h3>Insurance Claim Manage</h3>
+                            <p>Home equity loans are better if you're looking for the lowest interest rates, long
+                                periods, and especially flexible
+                                repayment options.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <section id="hailfloods" class="ps-5 pe-5 pt-5 pb-5 mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 >Hail, Floods or Fire,</h2>
+                    <p>We provide an extra layer of protection for your Commercial Asset to completely eliminate the
+                        headaches which arise
+                        during an Insurance claim for your Asset.</p>
+
+                    <div class="mt-5">
+                        <ul class="hailflodd-list">
+                            <li><img src="images/check.png" alt=""> Free Pre-damage assessment of your structure</li>
+                            <li><img src="images/check.png" alt=""> Live Disaster Tracking</li>
+                            <li><img src="images/check.png" alt=""> Insurance Claim Management</li>
+                            <li><img src="images/check.png" alt=""> Construction Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="d-flex mt-5 mb-5">
+                        <button class="btn custom-nav-button2 rounded-0 ps-4 pe-4 "><i class="fa-solid fa-phone"></i>
+                            Call Now</button>
+                        <button class="btn custom-nav-button1 rounded-0 ps-4 pe-4 ms-3" type="submit">Inquire</button>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6">
+                    <img src="images/floods-or-fire.png" class="img-fluid " alt="">
+                </div>
+            </div>
+
+
+            <div class="row mt-5 pt-4 pb-4">
+
+                <div class="col-md-6">
+                    <img src="images/zero.png" class="img-fluid " alt="">
+                </div>
+
+
+                <div class="col-md-6 d-flex justify-content-center flex-column">
+                    <div class="hailfile">
+                        <h2>All this at Zero Cost to you</h2>
+                        <p>There is never an out of pocket charge to the customer! L2M has the only proven method that
+                            wraps all facets of a
+                            complex process to eliminate the headaches, fraud, and waste generally associated with
+                            insurance claims and construction</p>
+                        <button class="btn custom-nav-button2 rounded-0 ps-4 pe-4 ">
+                            Project My Assets</button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="getintouch" class="ps-5 pe-5 pt-5 pb-5 mt-3">
+        <div class="container">
+            <h2 class="text-center text-white">Get In Touch</h2>
+            <p class="text-center text-white mt-4">
+                Whether you're looking to build your portfolio, find your next freelance client or<br> showcase your
+                teams work we have a
+                plan for you.
+            </p>
+
+            <div class="row mt-5 d-flex align-items-center justify-content-center gap-3">
+             
+
+                <!-- <div class="col-md-4 bg-white d-flex align-items-center">
+                    <div class="child p-3">
+                        <img src="images/insurance-claim-management.png" class="img-fluid" alt="">
+                
+                    </div>
+                    <div>
+                        <span class="office-add  ms-3">Office Address</span>
+                        <p class="mt-3">700 Milam, St, Ste 1300 Houston TX 77002</p>
+                    </div>
+                </div> -->
+
+                <div class="col-md-4 bg-white d-flex align-items-center">
+                    <div class="child p-3">
+                        <img src="images/insurance-claim-management.png" class="img-fluid" alt="">
+                       
+                    </div>
+                    <div>
+                        <span class="office-add  ms-3">Office Address </span>
+                        <p class="mt-3" style="font-size: 14px;">700 Milam, St, Ste 1300 Houston TX 77002</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 bg-white d-flex align-items-center">
+                    <div class="child p-3">
+                        <img src="images/insurance-claim-management.png" class="img-fluid" alt="">
+                
+                    </div>
+                    <div>
+                        <span class="office-add  ms-3">Email Address </span>
+                        <p class="mt-3">info@ClaimIV.iv</p>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-white d-flex align-items-center">
+                    <div class="child p-3">
+                        <img src="images/insurance-claim-management.png" class="img-fluid" alt="">
+                
+                    </div>
+                    <div>
+                        <span class="office-add  ms-3">Phone Call</span>
+                        <p class="mt-3">8008135423</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row"></div> -->
+        </div>
+    </section>
+
+
+    <section id="insurancecover" class="ps-5 pe-5 pt-5 pb-5 mt-3">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-7">
+                    <h2>Extra Stress and Pitfallsa Good<br>
+                        Insurance Cover?</h2>
+                    <span>Here are the Problems our Customers Face</span>
+                </div>
+                <div class="col-md-3 mt-auto dont ms-auto" style="background-image: url('images/Arrow.png');">
+                    <button class="btn custom-nav-button2 rounded-0 ps-4 pe-4  ">I Don,t Want These Problems</button>
+                </div>
+            </div>
+
+            <div class="row mt-5 pt-3 pb-3">
+                <div class="col-md-5 p-2">
+                    <div class="cover p-3 text-white">
+                        <div class="mt-4">
+                            <h3>Claim Pitfalls</h3>
+                            <ul class="mt-4">
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Inurance Carrier
+                                        tactics</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Failing to migate further
+                                        femage</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Accepting funds from
+                                        contractors</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Pre-existing demage</span>
+                                </li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Deffered
+                                        maintenance</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Filing late</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Fraud</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 p-2">
+                    <div class="construction-pitfal p-3 text-white">
+                        <div class="mt-4">
+                            <h3>Construction Pitfalls</h3>
+                            <ul class="mt-4">
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Hiring a roofer as a general contracter</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Contracter fraud</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Lack of construction management skills</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">No control of funds</span>
+                                </li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">No insurance funds oversight</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Unqualified or conflicted trades</span></li>
+                                <li><img src="images/check2.png" alt=""> <span class="mylist">Misallocation of insurance funds Contractor-induced liabilities</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="propertyprotection" class="ps-5 pe-5 pt-2 pb-2">
+        <div class="container-fluid pt-5 pb-5 insurancecontainer ">
+            <div class="row">
+
+
+                <div class="col-md-6 p-4 my-auto">
+                    <h1>Get End-End<br> Property Protection</h1>
+                    <p class="claim-para">Once enrolled in ClaimIV Inc. Program, you get a Pre-damage assessment of your
+                        structure & Insurance Documents, Live
+                        disaster tracking, Insurance claim administration, and Construction Management. All this
+                        provides an extra cover to your
+                        already existing Insurance cover and keeps you worry-free during a natural calamity.</p>
+
+
+                    <div class="d-flex mt-5">
+                        <button class="btn custom-nav-button2 rounded-0 ps-4 pe-4 "><i class="fa-solid fa-phone"></i>
+                            Call Now</button>
+                        <button class="btn custom-nav-button1 rounded-0 ps-4 pe-4 ms-3">Enquire Now</button>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 p-4">
+                    <img src="images/property-prot.png" class="img-fluid" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="howwehelp" class="ps-5 pe-5 pt-5 pb-5">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+
+                <div class="col-md-8">
+                    <h2 class="howwehelp-title">How we help</h2>
+                    <p class="mt-5">ClaimIV Inc. was established to provide additional protection of the client’s
+                        properties not covered by insurance. Our
+                        proven method is designed to ensure the asset’s indemnification by combining Pre-Loss
+                        Strategies, Active Loss
+                        Negotiations, and Construction Management.​</p>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-end">
+                    <div class="d-flex mt-5 ps-5 button-div">
+                        <button class="btn custom-nav-button2 rounded-0 ps-4 pe-4 "><i class="fa-solid fa-phone"></i>
+                            Call Now</button>
+                        <button class="btn custom-nav-button1 rounded-0 ps-4 pe-4 ms-3">Enquire</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 mb-5 pt-5 pb-5 insurance-claim-row ">
+                <div class="col-md-6 row-mob">
+                    <img src="images/insurance-claim.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 p-5 my-auto">
+                    <h2 class="insurance-title">INSURANCE<br>CLAIMS</h2>
+                    <p class="insurance-para">ClaimIV Inc has developed a comprehensive plan to guard against the rising
+                        cost of insurance premiums and exorbitant
+                        deductibles.</p>
+                    <p class="insurance-para">Our Unique approach is practical no matter where you are in the process
+                        and virtually eliminates carrier objections.</p>
+                </div>
+            </div>
+
+            <div class="row mt-5 mb-5 p-5 pb-5 asset-protection-row">
+
+                <div class="col-md-6 my-auto">
+                    <h2 class="insurance-title">ASSET<br>PROTECTION</h2>
+
+                    <p class="insurance-para">Once enrolled, ClaimIV Inc. actively tracks natural disasters that may
+                        affect your investment. Often, we know you have
+                        damage before you do and already have a customized plan in place to handle your loss. </p>
+
+                    <p class="insurance-para">ClaimIV Inc. manages the loss from beginning to end, returning your asset
+                        to a better than pre-loss condition.</p>
+
+                    <p class="insurance-para">ClaimIV Inc. creates final audit documentation substantiating the claim,
+                        repairs, warranties, leans release, COA, safety
+                        plans, OSHA documents, and more.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images/asset-protection.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="row mt-5 mb-5 p-5 pb-5 p-mob">
+                <div class="col-md-6">
+                    <img src="images/expert-negotiation.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 ps-5 my-auto p-mob">
+                    <h2 class="insurance-title">EXPERT NEGOTIATION & CONSTRUCTION</h2>
+                    <p class="insurance-para">Our licensed experts inspect for damages and viability before a claim
+                        filed, then negotiate your loss to ensure
+                        indemnification.</p>
+                    <p class="insurance-para">ClaimIV Inc. tracks the latest carrier requirements to ensure full
+                        recovery of insurance proceeds, including
+                        depreciation.</p>
+                    <p class="insurance-para">ClaimIV Inc. specializes in large scale construction management using
+                        local contractors who are experts in their field
+                        and leaders in their industry. Our model uses CMAA guidelines to document your claim, repairs,
+                        and warranties necessary
+                        to operate in this ever-changing environment.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="faq" class="ps-5 pe-5 pt-5 mb-5 pb-5">
+        <div class="container text-center pt-4">
+            <div>
+                <h2>Frequently Asked Question</h2>
+                <p>Have questions? We’re here to help.</p>
+            </div>
+            <div class="row mt-5">
+
+                <div class="col-md-6 p-2">
+
+                    <div class="accordion" id="accordionExample">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How are ClaimIV Inc. services free to me?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam molestias explicabo praesentium ratione
+                                        laborum nulla voluptatum atque iusto culpa dolorum quisquam odit perspiciatis
+                                        delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingtwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo">
+                                    Doesn't my property manager know how to handle my loss?
+                                </button>
+                            </h2>
+                            <div id="collapsetwo" class="accordion-collapse collapse" aria-labelledby="headingtwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam
+                                        molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                        culpa dolorum quisquam odit
+                                        perspiciatis delectus eius, maiores illum.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingthree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                                I want one company to handle everything, who should I hire?
+                                </button>
+                            </h2>
+                            <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Minima aliquam quae numquam
+                                    molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                    culpa dolorum quisquam odit
+                                    perspiciatis delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                Doesn't my property manager know how to do construction?
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam
+                                        molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                        culpa dolorum quisquam odit
+                                        perspiciatis delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                Is hiring a CCM (Certified Contruction Manager) that important?
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam
+                                        molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                        culpa dolorum quisquam odit
+                                        perspiciatis delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingsix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                    Can my contractor pay my deductible for me?
+                                </button>
+                            </h2>
+                            <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Minima aliquam quae numquam
+                                    molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                    culpa dolorum quisquam odit
+                                    perspiciatis delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 p-2">
+                
+                    <div class="accordion" id="accordionExample">
+                
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingsix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix"
+                        aria-expanded="false" aria-controls="collapsesix">
+                    My insurance agent can handle my claim, right?
+                    </button>
+                </h2>
+                <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Minima aliquam quae numquam
+                            molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                            culpa dolorum quisquam odit
+                            perspiciatis delectus eius, maiores illum.</p>
+                    </div>
+                </div>
+            </div>
+                
+                
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingtwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo">
+                                    Can't my contractor negotiate my claim for me?
+                                </button>
+                            </h2>
+                            <div id="collapsetwo" class="accordion-collapse collapse" aria-labelledby="headingtwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam
+                                        molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                        culpa dolorum quisquam odit
+                                        perspiciatis delectus eius, maiores illum.</p>
+                
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingthree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                                    Should I use a Roofer/GC?
+                                </button>
+                            </h2>
+                            <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam
+                                        molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                        culpa dolorum quisquam odit
+                                        perspiciatis delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    What is a Construction Management?
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam
+                                        molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                        culpa dolorum quisquam odit
+                                        perspiciatis delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                    I have a high deductible, should I file a claim?
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam
+                                        molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                        culpa dolorum quisquam odit
+                                        perspiciatis delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingsix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                    Is there a way to lessen the financial blow of a high deductible, legally?
+                                </button>
+                            </h2>
+                            <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Minima aliquam quae numquam
+                                        molestias explicabo praesentium ratione laborum nulla voluptatum atque iusto
+                                        culpa dolorum quisquam odit
+                                        perspiciatis delectus eius, maiores illum.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="ps-5 pe-5 pt-5 pb-3 ">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-md-3 p-footer">
+                    <img src="images/footer-logo.png" class="img-fluid" alt="">
+                    <div class="mt-4">
+                        <p>Injecting life into your claim!</p>
+                        <ul class="footer-list mt-4">
+                            <li><img src="images/footer-twitter.png" alt="" class="img-fluid"></li>
+                            <li><img src="images/footer-facebook.png" alt="" class="img-fluid"></li>
+                            <li><img src="images/footer-insta.png" alt="" class="img-fluid"></li>
+                            <li><img src="images/footer-github.png" alt="" class="img-fluid"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 p-footer">
+                    <h5 class="footer-title">Usefull Links</h5>
+                    <ul class="footer-link-list mt-4">
+                        <li><a href="#">Listing</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 p-footer">
+                    <h5 class="footer-title">Get In Touch</h5>
+                    <ul class="footer-link-list2 mt-4">
+                        <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i><span class="ms-3">700 Milam
+                                St. Ste 1300 Houston, TX 77002</span></li>
+                        <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i><span class="ms-3">8008135423</span></li>
+                        <li><i class="fa-solid fa-envelope" style="color: #ffffff;"></i><span
+                                class="ms-3">info@ClaimIV.ai</span></li>
+
+                    </ul>
+
+                </div>
+                <div class="col-md-3 p-footer">
+                    <h5 class="footer-title">Newsletter</h5>
+                    <div>
+                        <form class="mt-4 w-100">
+                            <div class="mb-3">
+                                <input type="email" class="form-control footer-email" id="email" name="email"
+                                    placeholder="Your Email">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary footer-button btn-block">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+
+            <div class="pt-3">
+                <p class="text-center">© Copyright 2023, All Rights Reserved by Claim IV</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</body>
+
+</html>

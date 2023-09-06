@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --maincolor: #237AFF;
+    --blackcolor: #12141D;
+}
+
+
+
+.heading-1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: var(--blackcolor);
+}
+
+.custom-list a {
+    color: var(--blackcolor);
+    font-size: 16px;
+}
+
+.custom-list a:active {
+    color: var(--maincolor)
+}
+
+.logo_img {
+    width: 80px;
+    height: 47px;
+}
+
+.custom-nav {
+    background-color: white;
+}
+
+.custom-nav-button1 {
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+}
+
+.custom-nav-button2 {
+    background-color: var(--maincolor);
+    color: white;
+}
+
+/* ////////////////////// HEADER ////////////////////// */
+#header {
+    /* background-image: linear-gradient(360deg,#237AFF1A, #237AFF); */
+    background-color: #f2f7ff;
+}
+
+.header-left {
+    padding: 40px 0px 40px 0px;
+
+}
+
+.header-left h1 {
+    font-size: 57px !important;
+    line-height: 50px;
+    font-weight: 800;
+    font-family: "Poppins" !important;
+    letter-spacing: 6px;
+    line-height: 57px !important;
+}
+
+.custom-nav-button3 {
+    width: 40px;
+    height: 40px;
+    background-color: #12141D;
+    color: white;
+    border-radius: 100px;
+}
+
+/* ////////////// INSURANCE CLAIM ////////////// */
+#insuranceclaim {
+    background-color: #0E1828;
+}
+
+.insurancecontainer h1 {
+    font-size: 45px !important;
+    line-height: 50px;
+    font-weight: 800;
+    font-family: "Poppins" !important;
+    /* letter-spacing: 6px; */
+    line-height: 57px !important;
+    color: white;
+}
+
+.insurancecontainer p {
+    color: #FFFFFF !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* //////////  WHY CLAIMIV /////////// */
+#whyclaimiv {
+    background-color: #F9F9F9;
+}
+
+#whyclaimiv h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.whyright {
+    background-color: #F4F3F7;
+    padding: 15px;
+}
+
+#whyclaimiv img {
+    width: 150px;
+    /* height: 80px; */
+}
+
+/* ///////// hail floods ///////// */
+#hailfloods h2 {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+#hailfloods p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #12141D;
+}
+
+#hailfloods ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ailfloods ul li {
+    margin-top: 10px;
+}
+
+/* ////////// getintouch ////////// */
+#getintouch {
+    background-color: #0E1828 !important;
+}
+
+#getintouch h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#getintouch p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.office-add {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px !important;
+}
+
+/* ///////// insurancecover/////////// */
+
+#insurancecover h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+
+/* ///////////////////// */
+.cover {
+    background-color: #0E1828;
+    padding: 48px !important;
+
+}
+
+.cover ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cover li {
+    margin-top: 15px;
+
+}
+
+.cover li:last-child {
+    margin-bottom: 30px;
+}
+
+.mylist {
+    margin-left: 15px;
+}
+
+.construction-pitfal {
+    background-color: #237AFF;
+    padding: 48px !important;
+}
+
+.construction-pitfal ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.construction-pitfal li {
+    margin-top: 15px;
+
+}
+
+.construction-pitfal :last-child {
+    margin-bottom: 30px;
+}
+
+.dont {
+    padding-top: 42px;
+    padding-bottom: 25px;
+    background-image: url('images/Arrow.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/* ////////////////////////// */
+
+#propertyprotection {
+    background-color: #F9F9F9;
+}
+
+#propertyprotection h1 {
+    font-size: 45px !important;
+    line-height: 50px;
+    font-weight: 800;
+    font-family: "Poppins" !important;
+    /* letter-spacing: 6px; */
+    line-height: 57px !important;
+    color: #131313;
+    text-transform: capitalize;
+}
+
+#propertyprotection p {
+    color: #131313 !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ///////// HOW WE HELP /////////// */
+
+#howwehelp {
+    background-color: #000000;
+}
+
+#howwehelp h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#howwehelp p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.insurance-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.insurance-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+
+
+#footer {
+    background-color: #237AFF;
+    color: #FFFFFFCC;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-list li {
+    float: left;
+    padding-left: 15px;
+}
+
+.footer-list li:first-child {
+    padding-left: 0px;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer-link-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link-list li {}
+
+.footer-link-list li a {
+    color: #FFFFFFCC;
+    text-decoration: none;
+}
+
+.footer-link-list2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link-list2 li {
+    margin-top: 10px;
+}
+
+.footer-email {
+    background-color: transparent;
+    border-radius: 0px;
+}
+
+.footer-email::placeholder {
+    color: #FFFFFFCC;
+}
+
+.footer-button {
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    color: black;
+    width: 100%;
+}
+
+/* .collapse-two{
+    background-color: #F9F9F9;
+} */
+.accordion-button {
+    background-color: #F9F9F9 !important;
+    margin-top: 10px;
+}
+
+.accordion-button:first-child {
+    margin-top: 0px;
+}
+
+.accordion-item {
+    margin-top: 15px;
+    border-radius: 24px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../images/minus.png');
+}
+
+.accordion-button.collapsed::after {
+    background-image: url('../images/add.png');
+}
+
+.hailflodd-list li {
+    margin-top: 15px;
+}
+
+.b-right {
+    border-right: 1px solid #0000002b;
+}
+
+.b-right:last-child {
+    border-right: none;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    padding-bottom: 0px;
+}
+
+.modal-content {
+    border-radius: 0px !important;
+}
+
+.modal-title{
+    font-size: 22px;
+    font-weight: 700;
+    font-family:'poppins';
+}
+
+.modal form label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family:'poppins';
+}
+
+.modal form input, .input-group-text{
+background-color: #F6F6F6 !important;
+    border-radius: 0px !important;
+}
+
+       
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .b-right {
+        border-right: none !important;
+        border-bottom: 1px solid #0000002b !important;
+        padding: 60px !important;
+    }
+
+    .b-right:last-child {
+        border-right: none;
+    }
+
+    .header-left h1 {
+        font-size: 27px !important;
+        line-height: 50px;
+        font-weight: 800;
+        font-family: "Poppins" !important;
+        letter-spacing: 5px;
+        line-height: 35px !important;
+    }
+
+    #insuranceclaim {
+        padding: 10px !important;
+    }
+
+    #insuranceclaim img {
+        margin-left: -36px !important;
+    }
+
+    #whyclaimiv {
+        padding: 50px 10px 10px 0px !important;
+    }
+
+    .insurancecontainer h1 {
+        font-size: 27px !important;
+        line-height: 50px;
+        font-weight: 800;
+        font-family: "Poppins" !important;
+        letter-spacing: 5px;
+        line-height: 35px !important;
+        color: white;
+    }
+
+    .insurancecontainer p {
+        color: #FFFFFF !important;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .child {
+        margin-top: 20px;
+        border-radius: 5px !important;
+    }
+
+    #getintouch h2 {
+        font-size: 40px;
+    }
+
+    #hailfloods {
+        padding: 10px !important;
+    }
+
+    .hailflodd-list li {
+        margin-top: 10px;
+    }
+
+    #hailfloods h2 {
+        font-size: 40px;
+    }
+
+    #insurancecover {
+        padding: 10px !important;
+    }
+
+    #insurancecover h2 {
+        font-size: 36px;
+    }
+
+    #propertyprotection {
+        padding: 10px !important;
+    }
+
+    #propertyprotection h1 {
+        font-size: 36px !important;
+        line-height: 41px !important;
+    }
+
+    #howwehelp {
+        padding: 10px !important;
+    }
+
+    .button-div {
+        padding-left: 0px !important;
+    }
+
+    .d-sm-none {
+        display: none;
+    }
+
+    .insurance-title {
+        font-size: 25px !important;
+        margin-top: 20px;
+    }
+
+    .asset-protection-row {
+        margin-top: 0px !important;
+        padding-left: 2rem !important;
+    }
+
+    .insurance-claim-row {
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .p-footer {
+        padding: 15px !important;
+    }
+
+    #navigation {
+        padding: 20px !important;
+    }
+
+    #faq {
+        padding: 10px !important;
+    }
+
+    .mt-sm-2 {
+        padding-top: 10px;
+    }
+
+    .mob-center {
+        text-align: center;
+    }
+
+    .padding-sm {
+        margin-top: 10px !important;
+    }
+
+    .p-mob {
+        margin-left: -36px !important;
+    }
+
+    .row-mob {
+        padding-left: 43px !important;
+        padding-right: 26px !important;
+    }
+}
